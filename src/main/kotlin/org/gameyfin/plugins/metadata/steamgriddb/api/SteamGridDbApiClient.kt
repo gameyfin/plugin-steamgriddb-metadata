@@ -1,8 +1,5 @@
-package de.grimsi.gameyfinplugins.steamgriddb.api
+package org.gameyfin.plugins.metadata.steamgriddb.api
 
-import de.grimsi.gameyfinplugins.steamgriddb.dto.SteamGridDbGameResult
-import de.grimsi.gameyfinplugins.steamgriddb.dto.SteamGridDbGridResult
-import de.grimsi.gameyfinplugins.steamgriddb.dto.SteamGridDbSearchResult
 import io.ktor.client.*
 import io.ktor.client.call.*
 import io.ktor.client.engine.cio.*
@@ -12,6 +9,9 @@ import io.ktor.client.statement.*
 import io.ktor.http.*
 import io.ktor.serialization.kotlinx.json.*
 import kotlinx.serialization.json.Json
+import org.gameyfin.plugins.metadata.steamgriddb.dto.SteamGridDbGameResult
+import org.gameyfin.plugins.metadata.steamgriddb.dto.SteamGridDbGridResult
+import org.gameyfin.plugins.metadata.steamgriddb.dto.SteamGridDbSearchResult
 
 
 class SteamGridDbApiClient(private val apiKey: String) {
