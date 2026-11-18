@@ -1,7 +1,7 @@
 # This is a Gradle generated file for dependency locking.
 # Manual edits can break the build and are not advised.
 # This file is expected to be part of source control.
-# To regenerate this file, run: ./gradlew :plugins:steamgriddb:dependencies --write-locks
+# To regenerate this file, run: ./gradlew :dependencies --write-locks
 care.better.pf4j:pf4j-kotlin-symbol-processing:2.4.0-1.0.5=kspKotlinProcessorClasspath
 com.fasterxml.jackson.core:jackson-annotations:2.22=testRuntimeClasspath
 com.github.zafarkhaja:java-semver:0.10.2=compileClasspath,kspKotlinProcessorClasspath,testCompileClasspath,testRuntimeClasspath
@@ -41,6 +41,7 @@ io.ktor:ktor-websocket-serialization:3.4.3=compileClasspath,runtimeClasspath,tes
 io.ktor:ktor-websockets-jvm:3.4.3=compileClasspath,runtimeClasspath,testCompileClasspath,testRuntimeClasspath
 io.ktor:ktor-websockets:3.4.3=compileClasspath,runtimeClasspath,testCompileClasspath,testRuntimeClasspath
 org.apiguardian:apiguardian-api:1.1.2=testCompileClasspath
+org.gameyfin:plugin-api:2.6.2=compileClasspath,testCompileClasspath,testRuntimeClasspath
 org.jetbrains.kotlin:kotlin-build-tools-api:2.4.0=kotlinAbiValidationCompatClasspath
 org.jetbrains.kotlin:kotlin-build-tools-api:2.4.10=kotlinBuildToolsApiClasspath,kotlinCompilerClasspath,kotlinKlibCommonizerClasspath
 org.jetbrains.kotlin:kotlin-build-tools-compat:2.4.10=kotlinAbiValidationCompatClasspath,kotlinBuildToolsApiClasspath,kotlinCompilerClasspath
